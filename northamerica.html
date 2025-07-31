@@ -17,7 +17,27 @@
 
 <div class="table">
 
-<img src="https://flagcdn.com/h240/ua.png" alt="">
+    <div>
+        
+        <img id="flagtest" src="https://flagcdn.com/h240/ua.png" alt="">
+        
+    </div>
+
+
+
+<br>
+
+<button class="btn" onclick="document.getElementById ('flagtest').src='https://flagcdn.com/h240/bg.png'">
+    bulgaria</button>
+
+<button class="btn" onclick="document.getElementById ('flagtest').src='https://flagcdn.com/h240/ua.png'">
+    ukraine</button>
+
+<br>
+
+<button class="btn" onclick="document.getElementById ('flagtest').style.display='unset'">Show</button>
+
+<button class="btn" onclick="document.getElementById ('flagtest').style.display='none'">Hide</button>
 
 </div>
 

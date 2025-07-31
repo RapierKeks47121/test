@@ -15,6 +15,23 @@ h1{
 
 }
 
+.btn{
+    background: #dadada;
+    color: ;
+    font-weight: 700;
+    font-size: large;
+    border: 1px solid #222;
+    margin: 13px 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.btn:hover{
+    background: #444444;
+    color: #fff;
+}
 
 .table{
     background: #ffffff80;
@@ -29,13 +46,10 @@ h1{
 
 
 
-.flags{
-    text-align: center;
-}
 
-
-
-#flag {
+#flag{
     margin-top: 20px;
     max-height: 240px;
     }
+
+

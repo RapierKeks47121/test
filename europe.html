@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Example</title>
+</head>
+<body>
+
+  <h2>Quiz Time!</h2>
+
+  <form id="quizForm">
+    <label for="question1">1. What is the capital of France?</label><br>
+    <input type="text" id="question1" name="question1"><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <p id="result"></p>
+
+  <script>
+    document.getElementById("quizForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Stop the page from refreshing
+
+      const userAnswer = document.getElementById("question1").value.trim().toLowerCase();
+      const correctAnswer = "paris";
+
+      if (userAnswer === correctAnswer) {
+        document.getElementById("result").textContent = "Correct!";
+      } else {
+        document.getElementById("result").textContent = "Oops! The correct answer is Paris.";
+      }
+    });
+  </script>
+
+</body>
+</html>
