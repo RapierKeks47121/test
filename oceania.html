@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flag Quiz</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    img { width: 260px; height: auto; border: 1px solid #ccc; }
+    input { padding: 8px; width: 200px; margin: 10px; }
+    button { padding: 10px 20px; margin: 5px; }
+    #feedback { margin-top: 10px; font-size: 1.2em; }
+  </style>
+</head>
+<body>
+
+  <h1>Flag Quiz</h1>
+  <img id="flagImg" src="" alt="Country flag">
+  <div>
+    <input id="guessInput" type="text" placeholder="Type country name">
+    <button id="submitBtn">Submit</button>
+  </div>
+  <div id="feedback"></div>
+  <button id="nextBtn" style="display:none;">Next Flag</button>
+  <div id="scoreDisplay">Score: 0 / 0</div>
+
+<script src="script.js"></script>
+</body>
+</html>

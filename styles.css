@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(31, 47, 141);
+    background-color: rgb(25, 31, 61);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -17,7 +17,7 @@ h1{
 
 .btn{
     background: #dadada;
-    color: ;
+    color: #000;
     font-weight: 700;
     font-size: large;
     border: 1px solid #222;
